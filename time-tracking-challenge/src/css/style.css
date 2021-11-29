@@ -116,47 +116,47 @@
         margin: .4em 0;
     }
     
-    .portada{
+    .cover{
         height: 50px;
         border-radius: 1em 1em 0 0;
     }
     
-    .work .portada{
+    .work .cover{
         background-image: url("../../images/icon-work.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Light_orange);
     }
     
-    .play .portada{
+    .play .cover{
         background-image: url("../../images/icon-play.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Soft_blue);
     }
     
-    .study .portada{
+    .study .cover{
         background-image: url("../../images/icon-study.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Light_red);
     }
     
-    .exercise .portada{
+    .exercise .cover{
         background-image: url("../../images/icon-exercise.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Lime_green)
     }
     
-    .social .portada{
+    .social .cover{
         background-image: url("../../images/icon-social.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Violet)  
     }
     
-    .self-care .portada{
+    .self-care .cover{
         background-image: url("../../images/icon-self-care.svg");
         background-position: right;
         background-repeat: no-repeat;
@@ -290,47 +290,47 @@
     .last-time{
         margin-top:1.9em;
     }
-    .portada{
+    .cover{
         height: 50px;
         border-radius: 1em 1em 0 0;
     }
     
-    .work .portada{
+    .work .cover{
         background-image: url("../../images/icon-work.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Light_orange);
     }
     
-    .play .portada{
+    .play .cover{
         background-image: url("../../images/icon-play.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Soft_blue);
     }
     
-    .study .portada{
+    .study .cover{
         background-image: url("../../images/icon-study.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Light_red);
     }
     
-    .exercise .portada{
+    .exercise .cover{
         background-image: url("../../images/icon-exercise.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Lime_green)
     }
     
-    .social .portada{
+    .social .cover{
         background-image: url("../../images/icon-social.svg");
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--Violet)  
     }
     
-    .self-care .portada{
+    .self-care .cover{
         background-image: url("../../images/icon-self-care.svg");
         background-position: right;
         background-repeat: no-repeat;
