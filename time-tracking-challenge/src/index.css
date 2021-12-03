@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background-color: hsl(226, 43%, 10%);
+  box-sizing: border-box;
+}
+
+main {
+  min-height: calc(100vh - 15px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Profile {
+  background: hsl(235, 46%, 20%);
+  width: 200px;
+  height: 430px;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.MainProfile {
+  border-radius: 15px;
+  padding: 30px;
+  height: 240px;
+  background: hsl(246, 80%, 60%);
+}
+
+.MainProfile p {
+  font-weight: 300;
+  color: hsl(236, 100%, 87%);
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.MainProfile h1 {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 1.9em;
+}
+
+.Avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.AvatarWrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 30px;
+}
+
+.TabNav {
+  list-style: none;
+  padding-left: 30px;
+  line-height: 2;
+  color: hsl(235, 45%, 61%);
+  font-weight: 300;
+  font-family: 18px;
+}
+
+.TabNav button {
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.TabNav button:hover {
+  color: white;
+}
+
+.active {
+  color: white;
+}
+
+.base {
+  color: hsl(235, 45%, 61%);
+}
+
+.Details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Card {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#Work {
+  background: hsl(15, 100%, 70%);
+  background-image: url('./images/icon-work.svg');
+  background-repeat: no-repeat;
+  background-position: top -7px right 15px;
+  background-size: 30%;
+}
+
+#Study {
+  background: hsl(348, 100%, 68%);
+  background-image: url('./images/icon-study.svg');
+  background-repeat: no-repeat;
+  background-position: top -7px right 15px;
+  background-size: 30%;
+}
+
+#Play {
+  background: hsl(195, 74%, 62%);
+  background-image: url('./images/icon-play.svg');
+  background-repeat: no-repeat;
+  background-position: top -7px right 15px;
+  background-size: 30%;
+}
+
+#SelfCare {
+  background: hsl(43, 84%, 65%);
+  background-image: url('./images/icon-self-care.svg');
+  background-repeat: no-repeat;
+  background-position: top -7px right 15px;
+  background-size: 25%;
+}
+
+#Social {
+  background: hsl(264, 64%, 52%);
+  background-image: url('./images/icon-social.svg');
+  background-repeat: no-repeat;
+  background-position: top -2px right 15px;
+  background-size: 31%;
+}
+
+#Exercise {
+  background: hsl(145, 58%, 55%);
+  background-image: url('./images/icon-exercise.svg');
+  background-repeat: no-repeat;
+  background-position: top -1px right 15px;
+  background-size: 30%;
+}
+
+.ContentWrapper {
+  background: hsl(235, 46%, 20%);
+  width: 200px;
+  height: 165px;
+  border-radius: 15px;
+}
+
+.ContentWrapper:hover {
+  background: hsl(235, 45%, 61%);
+  cursor: pointer;
+}
+
+.ContentWrapper h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 20px 15px;
+}
+
+.ellipsis {
+  height: 4px;
+  width: 17px;
+  margin-right: 30px;
+}
+
+.CardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainTime {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0 20px;
+}
+
+.previousTime {
+  font-size: 14px;
+  font-weight: 300;
+  color: hsl(236, 100%, 87%);
+  margin: 7px 20px;
+}
+
+footer {
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  color: hsl(235, 45%, 61%);
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(235, 45%, 61%);
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+
+  .Details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+  }
+
+  .Profile {
+    margin-top: 80px;
+    width: 300px;
+    height: 180px;
+  }
+
+  .MainProfile {
+    height: 70px;
+    display: flex;
+    padding: 25px;
+  }
+
+  .TabNav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+  }
+
+  .ProfileText {
+    margin-left: 20px;
+  }
+
+  .MainProfile h1 {
+    font-size: 1.3em;
+  }
+
+  .Card {
+    width: 300px;
+    height: 160px;
+  }
+
+  .ContentWrapper {
+    width: 100%;
+    height: 120px;
+  }
+
+  .timeframe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mainTime {
+    font-size: 32px;
+    margin: 0 20px;
+  }
+
+  .previousTime {
+    margin: 0 30px;
+  }
+
+
+}
