@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Profile } from './Profile';
-import { Details } from './Details';
+import { Profile } from 'Profile.js';
+import { Details } from 'Details.js';
 
 export const Main = () => {
   const [tab, setTab] = useState('daily');

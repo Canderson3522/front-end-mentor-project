@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Card } from '/card.js';
+import { Card } from 'card.js';
 
 export const Details = ({tab}) => {
   const [data, setData] = useState([]);
